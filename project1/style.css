@@ -1,0 +1,72 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{
+    background-image: url('employment-application-form-with-pen--document-is-mock-up-1128856629-5c65728146e0fb00017c2807.jpg');
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.apply_box{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin:auto;
+    margin-top: 50px;
+    box-shadow: 0cqmax;
+    border-radius: 10px;
+}
+
+.title_span{
+    font-size: 20px;
+}
+
+.form_container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: 20px;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input,select,textarea{
+    padding: 10px 10px
+    
+}
+.buttuon_container{
+    display: flex;
+    justify-content: end;
+}
+button{
+    background-color: red;
+    padding:5px 10px;
+    color:white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+    border: 2px solid violet;
+    cursor: pointer;
+}
+.textarea_control{
+    display: grid;
+    grid-column: 1 / span 2;
+    
+}
+    
